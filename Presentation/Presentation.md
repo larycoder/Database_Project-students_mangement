@@ -38,7 +38,7 @@ theme:
 - Students can see all tuition fees that they have paid or have not fully paid yet and also their scholarships information
 
 ## Student information schema
-![Schema](../src/EDR.png)
+![Schema](../src/EDR.png){ width=70% }
 
 ## Diagram table 
 ![Diagram](../src/Table_diagram.png)

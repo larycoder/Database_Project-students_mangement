@@ -38,6 +38,7 @@ CREATE TABLE Courses (
 CREATE TABLE Lecturers (
 	ID varchar(10) primary key,
     First_name varchar(50),
+    major varchar(100),
     Last_name varchar(50)
 );
 -- --------------------------------
@@ -70,7 +71,7 @@ CREATE TABLE Score_record (
     final double,
     note varchar(500),
     FOREIGN KEY (course_id) REFERENCES Courses(ID),
-    FOREIGN KEY (course_id) REFERENCES Courses(ID)
+    FOREIGN KEY (student_id) REFERENCES Students(ID)
 );
 -- --------------------------------
 -- Talbe 'usth_gen8'.'Teaching'
